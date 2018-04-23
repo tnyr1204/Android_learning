@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">test01</string>
+    <string name="sample_string">HelloWorld!</string>
+    <string name="tap_here">ここをタップ！</string>
+</resources>
