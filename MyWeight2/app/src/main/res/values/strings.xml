@@ -4,4 +4,6 @@
     <string name="minus_text">-</string>
     <string name="plus_text">+</string>
     <string name="date_text">日付:</string>
+    <string name="save_text">保存</string>
+    <string name="string_text">設定</string>
 </resources>
