@@ -10,7 +10,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 
 		DrawView view = new DrawView(this);
-		setContentView(view);
+		setContentView(R.layout.activity_main);
 	}
 
 }
