@@ -60,14 +60,4 @@
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@android:drawable/ic_menu_delete" />
 
-    <ImageButton
-        android:id="@+id/marker"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/draw1"
-        app:layout_constraintStart_toEndOf="@+id/redo"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.304"
-        app:srcCompat="@android:drawable/button_onoff_indicator_on" />
-
 </android.support.constraint.ConstraintLayout>

@@ -5,9 +5,7 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
-import android.graphics.PorterDuff;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
@@ -88,8 +86,7 @@ public class DrawView extends View implements OnTouchListener{
 	}
 
 	public void clear() {
-		Log.d("DrawView", "クリア");
-		canvas.drawColor(0, PorterDuff.Mode.CLEAR);
+		undoStack.clear();
 		redoStack.clear();
 		invalidate();
 	}
